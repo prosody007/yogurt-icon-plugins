@@ -6,13 +6,15 @@ This plugin registers the public Yogurt Icon MCP server from OpenCode's configur
 
 Copy `index.js` to `~/.config/opencode/plugins/yogurt-icon.js`, or to your project's `.opencode/plugins/yogurt-icon.js`, then restart OpenCode. This local method is available independently of npm publication. Do not install a second copy if the existing local plugin already loads.
 
-## npm distribution
+## Install from npm
 
-The intended npm package name is `yogurt-icon-opencode`. The repository alone does not mean that the npm package has been published; check the release notes before using the following configuration:
+Add the [yogurt-icon-opencode](https://www.npmjs.com/package/yogurt-icon-opencode) package to the `plugin` array in your OpenCode configuration, preserving other entries:
 
 ```json
 { "plugin": ["yogurt-icon-opencode@1.3.2"] }
 ```
+
+Restart OpenCode, then run `opencode mcp list` to check the connection. Use either the npm package or the local JavaScript file, so the same plugin is not loaded twice.
 
 Search the Yogurt Icon catalog by English or Chinese keyword, category, and outline or solid style. Retrieve an existing result as SVG or React JSX at a chosen size, with optional stroke width. The plugin uses three read-only tools: `list_categories`, `search_icons`, and `get_icon`.
 
