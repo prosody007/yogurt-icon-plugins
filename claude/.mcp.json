@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "yogurt-icon": {
+      "type": "http",
+      "url": "https://icon.ggeric.top/api/mcp?channel=plugin"
+    }
+  }
+}

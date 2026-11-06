@@ -1,0 +1,15 @@
+{
+  "name": "yogurt-icon-plugins",
+  "owner": {
+    "name": "GUOTONG SUN",
+    "email": "prosody007@gmail.com",
+    "url": "https://icon.ggeric.top"
+  },
+  "plugins": [
+    {
+      "name": "yogurt-icon",
+      "source": "cursor",
+      "description": "Search Yogurt Icon by English or Chinese keyword and retrieve SVG or React JSX."
+    }
+  ]
+}

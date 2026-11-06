@@ -1,0 +1,64 @@
+{
+  "name": "yogurt-icon",
+  "displayName": "Yogurt Icon",
+  "description": "Search Yogurt icons and retrieve SVG or React JSX through your coding agent.",
+  "version": "1.3.2",
+  "publisher": "yogurt-icon",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "AI",
+    "Other"
+  ],
+  "keywords": [
+    "icons",
+    "svg",
+    "jsx",
+    "mcp"
+  ],
+  "license": "MIT",
+  "homepage": "https://icon.ggeric.top",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prosody007/yogurt-icon-plugins.git",
+    "directory": "vscode"
+  },
+  "icon": "assets/icon.png",
+  "main": "./extension.cjs",
+  "files": [
+    "extension.cjs",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "RIGHTS.md",
+    "assets/icon.png"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onMcpServerDefinitionProvider:yogurt-icon"
+  ],
+  "contributes": {
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "yogurt-icon",
+        "label": "Yogurt Icon"
+      }
+    ],
+    "commands": [
+      {
+        "command": "yogurtIcon.openLibrary",
+        "title": "Yogurt Icon: Open Icon Library"
+      }
+    ]
+  },
+  "author": {
+    "name": "GUOTONG SUN",
+    "email": "prosody007@gmail.com",
+    "url": "https://icon.ggeric.top"
+  },
+  "bugs": {
+    "url": "https://github.com/prosody007/yogurt-icon-plugins/issues"
+  }
+}

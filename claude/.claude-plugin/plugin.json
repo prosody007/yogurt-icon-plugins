@@ -1,0 +1,22 @@
+{
+  "name": "yogurt-icon",
+  "version": "1.3.2",
+  "description": "Search Yogurt Icon by English or Chinese keyword and retrieve SVG or React JSX.",
+  "author": {
+    "name": "GUOTONG SUN",
+    "email": "prosody007@gmail.com",
+    "url": "https://icon.ggeric.top"
+  },
+  "homepage": "https://icon.ggeric.top",
+  "repository": "https://github.com/prosody007/yogurt-icon-plugins",
+  "license": "MIT",
+  "keywords": [
+    "icons",
+    "svg",
+    "jsx",
+    "design",
+    "mcp"
+  ],
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://icon.ggeric.top/privacy/"
+}
